@@ -1,10 +1,18 @@
+body {
+    background-image: url(https://d3i3hiotloyksv.cloudfront.net/uploads/ground/cover/1/1b8df991-b54c-4f91-8fa0-045f9b322b67.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    overflow:auto
+}
 .real{
     background-image: url(../img/header.jpg);
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
     background-position: center;
     background-size: 100% 100%;
-    width:80%;
+    width:90%;
     height: 30%;
     margin-left: auto;
     margin-right: auto;
@@ -15,28 +23,104 @@
     font-size: 50px;    
 }
 
-#hor{
-    width:100%
-    text-align:center;   
-}
-#hor ul a{
-    display: inline-block;
-    text-decoration: none;
+#hor div{
+    font-size:30px;
+    text-align: center;
+    border: 5px solid black;
+    width: 10%;
     padding: 20px;
-    color:black;
-    
+    position: relative;
+    margin: 1vw;
+    right: -16vw;
+    float: left;
+    list-style-type: none;
+}
+.gai{
+    background-image: url(../img/gai.jpg);
+    background-size:100% 100%; 
+}
+.pgone{
+    background-image: url(../img/pgone.jpg);
+    background-size:100% 100%; 
+}
+.aj{
+    background-image: url(../img/aj.jpg);
+    background-size:100% 100%; 
+}
+.jj{
+    background-image: url(../img/jj.jpg);
+    background-size:100% 100%; 
+}
+.tt{
+    background-image: url(../img/tt.jpg);
+    background-size:100% 100%; 
+}
+
+.pgone a{
+    text-decoration: none;
+    color: yellow;
+}
+.gai a{
+    text-decoration: none;
+    color: aqua;
+}
+.aj a{
+    text-decoration: none;
+    color: white;
+}
+.jj a{
+    text-decoration: none;
+    color: purple;
+}
+.tt a{
+    text-decoration: none;
+    color: blue;
+}
+
+.clear{
+    clear: both;
+}
+
+.left_bar{
+    margin-left:2vw; 
+    float: left;
 }
 
 img{
-    width: 300px;
-    height: 300px;    
-    margin: 20px 0px 0px 40px;
+    width: 15vw;
+    height: 15vw;    
+    margin: 2vw 0vw 0vw 3vw;
 }
 
-body {
-    background-image: url(https://d3i3hiotloyksv.cloudfront.net/uploads/ground/cover/1/1b8df991-b54c-4f91-8fa0-045f9b322b67.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
+.yee{
+    width: 20vw;
+    margin: 2vw 0vw 0vw 8vw;
 }
+
+.yee a{
+    text-decoration: none;
+    color: white;
+}
+
+.fishman{
+    width: 20vw;
+    margin: 1vw 0vw 0vw 6vw;
+}
+.fishman a{
+    text-decoration: none;
+    color: white;
+}
+
+.content div{
+    color: wheat;
+    float: left;
+    width: 64%;
+    height: 20%;
+    background-color: gray;
+    margin: 2vw 5vw 0vw 0vw;
+}
+.footer{
+    float: right;
+}
+
+
